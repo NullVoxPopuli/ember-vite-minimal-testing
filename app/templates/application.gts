@@ -1,6 +1,7 @@
 import Route from 'ember-route-template';
 import { pageTitle } from 'ember-page-title';
-import { WelcomePage } from 'ember-welcome-page';
+//import { WelcomePage } from 'ember-welcome-page';
+import WelcomePage from 'ember-welcome-page/components/welcome-page';
 
 export default Route(
   <template>
